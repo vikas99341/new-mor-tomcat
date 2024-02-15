@@ -1,16 +1,20 @@
 <html>
    <head>
-      <title>Using GET Method to Read Form Data</title>
+      <title>Reading Checkbox Data</title>
    </head>
    
    <body>
-      <h1>Using GET Method to Read Form Data</h1>
+      <h1>Reading Checkbox Data</h1>
+      
       <ul>
-         <li><p><b>First Name:</b>
-            <%= request.getParameter("first_name")%>
+         <li><p><b>Maths Flag:</b>
+            <%= request.getParameter("maths")%>
          </p></li>
-         <li><p><b>Last  Name:</b>
-            <%= request.getParameter("last_name")%>
+         <li><p><b>Physics Flag:</b>
+            <%= request.getParameter("physics")%>
+         </p></li>
+         <li><p><b>Chemistry Flag:</b>
+            <%= request.getParameter("chemistry")%>
          </p></li>
       </ul>
    
